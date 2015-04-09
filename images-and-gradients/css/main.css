@@ -1,0 +1,100 @@
+html {
+	font-family: 'Dosis', sans-serif;
+	box-sizing: border-box;}
+
+*, *::before, *::after {
+	box-sizing:inherit;}
+
+.masthead{
+	padding-top: 0.5em;
+	background-image:url("../images/logo.svg"),url("../images/pattern.png"),url("../images/logo.svg");
+	background-size:75px auto, 200px auto;
+	background-repeat: no-repeat, repeat, no-repeat;
+	background-position: left, left top, right;
+	text-align: center;
+}
+
+h1{
+	color: #512200;
+	font-size: 6em;
+}
+
+ol{
+	display: inline-block;
+	padding: 0}
+
+li{
+	display: inline-block;
+	list-style: none;
+	color: white;}
+
+nav li {
+   float: left;
+   display: inline-block;}
+
+a {
+  text-decoration: none;
+  color: white;}
+
+nav li{
+  width: 33.3%;
+  border: 1px solid #a33f3a;
+  padding: 0.5em;
+  text-align: center;}
+
+nav ol{
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  padding: 0;}
+body{
+	margin: 0;
+}
+img{
+	width: 100%;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+.bug-1{
+	width: 50%;
+	float: left;
+}
+
+.bug-2{
+	width: 50%;
+	float: right;
+}
+
+.bug-3{
+	width: 50%;
+	float:left;
+	clear: both;
+}
+
+.bug-4{
+	width: 50%;
+	float: left;
+}
+
+.btn{
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	background-color: #a8ae98;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
+}
+
+.box{
+	background-color: #3B3A33;
+	padding: 1em;
+	text-align: center;
+}
+
+
+footer{
+	background-image:url("../images/logo.svg");
+	background-image: no-repeat;
+}
